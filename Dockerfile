@@ -12,7 +12,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Clone the project
-RUN git clone https://github.com/alexpilotti/python-miramode.git .
+RUN git clone https://github.com/martingrayson/python-miramode .
 
 # Install the package using setup.py
 RUN pip install .
